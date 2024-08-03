@@ -9,7 +9,7 @@ SRS = parsing/ft_split.c parsing/linked_list.c parsing/heredoc_expand.c parsing/
 		execution/cd1.c execution/env_reserv.c execution/save_varible.c execution/minishell.c execution/permessio.c execution/newfile.c\
 		parsing/about_dollar1.c parsing/print1.c execution/main1.c
 OBJCTS = $(SRS:.c=.o)
-CFLAGS = -Wall -Wextra -Werror #-fsanitize=address -g3
+CFLAGS = -Wall -Wextra -Werror -fsanitize=address -g3
 LIB = ./minishell.h
 all : $(NAME)
 

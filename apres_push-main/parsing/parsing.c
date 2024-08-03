@@ -6,7 +6,7 @@
 /*   By: khmessah <khmessah@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/23 17:53:12 by mmondad           #+#    #+#             */
-/*   Updated: 2024/08/02 23:54:15 by khmessah         ###   ########.fr       */
+/*   Updated: 2024/08/03 08:36:35 by khmessah         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -47,7 +47,7 @@ void	ft_readline(t_info *info)
 	{
 		info->tmp_line = NULL;
 		free_all(info);
-		ft_putstr("exit\n", 2);
+		// ft_putstr("exit\n", 2);
 		exit(static_v->exit_status);
 	}
 }

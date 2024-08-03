@@ -6,7 +6,7 @@
 /*   By: khmessah <khmessah@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/14 19:16:23 by khmessah          #+#    #+#             */
-/*   Updated: 2024/08/02 18:06:10 by khmessah         ###   ########.fr       */
+/*   Updated: 2024/08/03 09:08:32 by khmessah         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ void	ft_print_string(char *str, int fd)
 	int	i;
 
 	i = 0;
-	while (str[i])
+	while (str && str[i])
 	{
 		write(fd, &str[i], 1);
 		i++;

@@ -6,7 +6,7 @@
 /*   By: khmessah <khmessah@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/14 18:11:38 by khmessah          #+#    #+#             */
-/*   Updated: 2024/07/30 17:56:18 by khmessah         ###   ########.fr       */
+/*   Updated: 2024/08/03 09:11:07 by khmessah         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -53,7 +53,7 @@ char	*ft_strchr1(const char *s, int c)
 
 	c = (char)c;
 	i = 0;
-	while (s[i])
+	while (s && s[i])
 	{
 		if (s[i] == c)
 		{
